@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/newform.css">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Form</title>
+</head>
+<body>
+    <div class="row">
+        <div class="col-75">
+          <div class="container">
+            <form action="">
+              <div class="row">
+                <div class="col-50">
+                  <h3>Registro de usuario</h3>
+                  <div class="row">
+                      <div class="col-md-6 mb-3">
+                         <label for="fname"><i class="fa fa-user"></i>Nombre de pila</label>
+                         <input type="text" id="fname" name="firstname" placeholder="Santiago">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                         <label for="fname"><i class="fa fa-user"></i>Apellido</label>
+                         <input type="text" id="fname" name="fname" placeholder="Martinez">
+                      </div>
+                  </div>
+                  <label for="username"><i class="fa fa-envelope"></i> Nombre de usuario</label>
+                  <div class="input-group">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text">@</span>
+                      </div>
+                      <input type="text" class="form-control" id="username" placeholder="Nombre de usuario">
+                    </div>
+                  <label for="email"><i class="fa fa-envelope"></i> Correo electronico</label>
+                  <input type="text" id="email" name="email" placeholder="john@example.com">
+                  <label for="adr"><i class="fa fa-address-card-o"></i> Habla a</label>
+                  <input type="text" id="adr" name="address" placeholder="">
+                  <label for="adr"><i class="fa fa-address-card-o"></i> Domicilio</label>
+                  <input type="text" id="adr" name="address" placeholder="Uruguay 635">
+      
+                      <div class="row">
+                        <div class="col-40">
+                           <div class="form-group">
+                              <label for="state">Pais</label>
+                              <select class="form-control" id="state">
+                              <option>Argentina</option>
+                              <option>Brasil</option>
+                              <option>Peru</option>
+                              <option>Chile</option>
+                              <option>Uruguay</option>
+                              </select>
+                            </div>
+                          </div>
+                        <div class="col-20">
+                          <div class="form-group">
+                              <label for="city">Ciudad</label>
+                              <select class="form-control" id="city">
+                                <option>Buenos Aires</option>
+                                <option>Lima</option>
+                                <option>Sao Paulo</option>
+                                <option>Santiago de Chile</option>
+                                <option>Montevideo</option>
+                              </select>
+                            </div>
+                          </div>
+                          <div class="col-40">
+                            <label for="zip">Codigo Postal</label>
+                            <input class="form-control" type="text" id="zip" name="zip" placeholder="10001">
+                          </div>
+                        </div>
+                      </div>
+              </div>
+                <label>
+                  <input type="checkbox" checked="checked" name="sameadr"> La direccion de envio es la misma que mi direccion de facturacion.
+                </label>
+                <br>
+                <label>
+                 <input type="checkbox" checked="checked" name="sameadr"> Guardar esta informacion para la proxima vez.
+                </label>
+                <input type="submit" value="Continue to checkout" class="btn">
+            </form>
+          </div>
+    </div>
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
